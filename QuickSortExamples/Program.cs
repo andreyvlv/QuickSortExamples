@@ -24,7 +24,7 @@ namespace QuickSortExamples
             Console.WriteLine();
             List<int> list = new List<int>();                     
             // Заполнить список случайными числами
-            for (int i = 0; i < 10000000; i++)
+            for (int i = 0; i < 50000000; i++)
             {
                 list.Add(r.Next(1, 10000));
             }
